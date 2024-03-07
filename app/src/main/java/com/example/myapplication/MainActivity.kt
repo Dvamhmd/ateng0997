@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Ateng")
+                    Greeting("Dava Mohamad Rizky")
                 }
             }
         }
@@ -39,11 +39,11 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Cyan) {
         Text(
-            text = "Hello $name! Apa apaan?",
+            text = "Hellooo\n $name!!\nApa kabar??",
             modifier = Modifier.padding(24.dp),
             textAlign = TextAlign.Center,
             fontSize = 30.sp,
-            lineHeight = 40.sp
+            lineHeight = 50.sp
         )
     }
 }
@@ -52,6 +52,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme {
-        Greeting("Ateng")
+        Greeting("Dava Mohamad Rizky")
     }
 }
